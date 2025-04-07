@@ -93,7 +93,7 @@ const PlayerScreen = ({ route, navigation }) => {
         onNext={playNextSong}
         onPrevious={playPreviousSong}
         defaultImage={defaultAlbumArt}
-      />
+     />
     </View>
   );
 };
@@ -102,6 +102,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#121212',
+    paddingTop:80,
   },
 });
 

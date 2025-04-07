@@ -28,6 +28,8 @@ const MusicList = ({ songs, onSongPress, loading, defaultImage }) => {
       renderItem={({ item }) => (
         <MusicItem song={item} onPress={onSongPress} defaultImage={defaultImage} />
       )}
+     //want to render items horizontal cards
+
       style={styles.list}
     />
   );

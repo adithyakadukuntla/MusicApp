@@ -57,15 +57,8 @@ const Player = ({ song, isPlaying, onPlay, onPause, onNext, onPrevious, defaultI
           minimumTrackTintColor="#1DB954"
           maximumTrackTintColor="#333"
           thumbTintColor="#1DB954"
-          onSlidingComplete={(value) => setPosition(value)}
           thumbTouchSize={{ width: 30, height: 30 }}
-          onValueChange={(value) => setPosition(value)}
-          // when i change the values on slider it should play from that time 
-          
-          // when i change the values on slider it should pause the music
-          
-
-          // Disabled for simplicity, would need to implement seeking
+          onValueChange={(value) => setPosition(value)}          
           disabled={false}
         />
         

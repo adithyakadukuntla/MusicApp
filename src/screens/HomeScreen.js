@@ -4,7 +4,7 @@ import MusicList from '../components/MusicList';
 import PermissionRequest from '../components/PermissionRequest';
 import { requestMusicPermission } from '../utils/permissionUtils';
 import { getAllSongs } from '../utils/musicUtils';
-import MiniPlayer from '../components/MiniPlayer';
+// import MiniPlayer from '../components/MiniPlayer';
 
 // Default album art image
 const defaultAlbumArt = require('../../assets/defaultAlbum.png');
@@ -59,7 +59,7 @@ const HomeScreen = ({ navigation }) => {
         loading={loading}
         defaultImage={defaultAlbumArt}
       />
-      <MiniPlayer/>
+      
     </View>
   );
 };
